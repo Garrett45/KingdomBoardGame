@@ -7,8 +7,8 @@ public class SectorRow {
         for (int i = 0; i < 10; i++) {
             hexes[i] = new Hex();
             if (i - 1 >= 0) {
-                hexes[i-1].setRightNeighbor(hexes[i]);
-                hexes[i].setLeftNeighbor(hexes[i-1]);
+                hexes[i-1].setENeighbor(hexes[i]);
+                hexes[i].setWNeighbor(hexes[i-1]);
             }
         }
     }

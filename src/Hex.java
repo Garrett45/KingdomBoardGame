@@ -23,51 +23,51 @@ public class Hex {
         color = null;
     }
 
-    public Hex getTopLeftNeighbor() {
+    public Hex getNWNeighbor() {
         return neighbors[0];
     }
 
-    public Hex getTopRightNeighbor() {
+    public Hex getNENeighbor() {
         return neighbors[1];
     }
 
-    public Hex getRightNeighbor() {
+    public Hex getENeighbor() {
         return neighbors[2];
     }
 
-    public Hex getBottomRightNeighbor() {
+    public Hex getSENeighbor() {
         return neighbors[3];
     }
 
-    public Hex getBottomLeftNeighbor() {
+    public Hex getSWNeighbor() {
         return neighbors[4];
     }
 
-    public Hex getLeftNeighbor() {
+    public Hex getWNeighbor() {
         return neighbors[5];
     }
 
-    public void setTopLeftNeighbor(Hex inputHex) {
+    public void setNWNeighbor(Hex inputHex) {
         neighbors[0] = inputHex;
     }
 
-    public void setTopRightNeighbor(Hex inputHex) {
+    public void setNENeighbor(Hex inputHex) {
         neighbors[1] = inputHex;
     }
 
-    public void setRightNeighbor(Hex inputHex) {
+    public void setENeighbor(Hex inputHex) {
         neighbors[2] = inputHex;
     }
 
-    public void setBottomRightNeighbor(Hex inputHex) {
+    public void setSENeighbor(Hex inputHex) {
         neighbors[3] = inputHex;
     }
 
-    public void setBottomLeftNeighbor(Hex inputHex) {
+    public void setSWNeighbor(Hex inputHex) {
         neighbors[4] = inputHex;
     }
 
-    public void setLeftNeighbor(Hex inputHex) {
+    public void setWNeighbor(Hex inputHex) {
         neighbors[5] = inputHex;
     }
 
