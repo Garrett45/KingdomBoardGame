@@ -4,3 +4,23 @@
  * This is a general purpose Gradle build.
  * Learn more about Gradle by exploring our samples at https://docs.gradle.org/6.8.3/samples
  */
+plugins{
+    id 'java'
+}
+task hello{
+    doLast{
+        println 'Hello Java Novice'
+    }
+}
+
+dependencies {
+    implementation 'junit:junit:4.12'
+    implementation 'org.junit.jupiter:junit-jupiter:5.4.2'
+    implementation 'junit:junit:4.12'
+    compile('org.junit.jupiter:junit-jupiter:5.4.2')
+}
+
+repositories{
+    mavenCentral()
+
+}
